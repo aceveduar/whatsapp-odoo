@@ -1,0 +1,37 @@
+/* Primer WhatsApp */
+.whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+}
+
+.whatsapp-icon {
+    margin-top: 13px;
+}
+
+/* Segundo WhatsApp (diseño diferente) */
+.whatsapp2 {
+    position: fixed;
+    width: 70px; /* Un poco más grande */
+    height: 70px;
+    bottom: 120px; /* Ajusta la altura para no superponer */
+    right: 40px;
+    background-color: #128C7E; /* Color verde diferente */
+    color: #FFF;
+    border-radius: 50px; /* Menos redondeado */
+    text-align: center;
+    font-size: 32px; /* Un poco más grande */
+    z-index: 100;
+}
+
+.whatsapp2-icon {
+    margin-top: 17px; /* Ajusta el margen para centrar mejor el icono */
+}
