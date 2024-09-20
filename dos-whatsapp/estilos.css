@@ -4,7 +4,7 @@
     width: 60px;
     height: 60px;
     bottom: 40px;
-    right: 40px;
+    right: 15px;
     background-color: #25d366;
     color: #FFF;
     border-radius: 50px;
@@ -17,21 +17,21 @@
     margin-top: 13px;
 }
 
-/* Segundo WhatsApp (diseño diferente) */
+/* Segundo WhatsApp */
 .whatsapp2 {
     position: fixed;
-    width: 70px; /* Un poco más grande */
-    height: 70px;
+    width: 60px; 
+    height: 60px;
     bottom: 120px; /* Ajusta la altura para no superponer */
-    right: 40px;
-    background-color: #128C7E; /* Color verde diferente */
+    right: 15px;
+    background-color: #128C7E; 
     color: #FFF;
-    border-radius: 50px; /* Menos redondeado */
+    border-radius: 50px;
     text-align: center;
-    font-size: 32px; /* Un poco más grande */
+    font-size: 30px;
     z-index: 100;
 }
 
 .whatsapp2-icon {
-    margin-top: 17px; /* Ajusta el margen para centrar mejor el icono */
+    margin-top: 13px; /* Ajusta el margen para centrar mejor el icono */
 }
